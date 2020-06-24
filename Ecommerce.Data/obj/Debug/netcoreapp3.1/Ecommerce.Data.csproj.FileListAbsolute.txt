@@ -1,7 +1,0 @@
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Data\bin\Debug\netcoreapp3.1\Ecommerce.Data.deps.json
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Data\bin\Debug\netcoreapp3.1\Ecommerce.Data.dll
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Data\bin\Debug\netcoreapp3.1\Ecommerce.Data.pdb
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Data\obj\Debug\netcoreapp3.1\Ecommerce.Data.AssemblyInfoInputs.cache
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Data\obj\Debug\netcoreapp3.1\Ecommerce.Data.AssemblyInfo.cs
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Data\obj\Debug\netcoreapp3.1\Ecommerce.Data.dll
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Data\obj\Debug\netcoreapp3.1\Ecommerce.Data.pdb

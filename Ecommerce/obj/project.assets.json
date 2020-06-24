@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ecommerce_NetCore\\Ecommerce_NetCore\\Ecommerce\\Ecommerce.WebApp.csproj",
-      "projectName": "Ecommerce.WebApp",
-      "projectPath": "D:\\Ecommerce_NetCore\\Ecommerce_NetCore\\Ecommerce\\Ecommerce.WebApp.csproj",
+      "projectUniqueName": "D:\\ecommerce_NetCore\\Ecommerce\\Ecommerce\\Ecommerce.csproj",
+      "projectName": "Ecommerce",
+      "projectPath": "D:\\ecommerce_NetCore\\Ecommerce\\Ecommerce\\Ecommerce.csproj",
       "packagesPath": "C:\\Users\\PHAM THANH TUNG\\.nuget\\packages\\",
-      "outputPath": "D:\\Ecommerce_NetCore\\Ecommerce_NetCore\\Ecommerce\\obj\\",
+      "outputPath": "D:\\ecommerce_NetCore\\Ecommerce\\Ecommerce\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PHAM THANH TUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",

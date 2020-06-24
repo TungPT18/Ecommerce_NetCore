@@ -1,8 +1,0 @@
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Domain\bin\Debug\netcoreapp3.1\Ecommerce.Domain.deps.json
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Domain\bin\Debug\netcoreapp3.1\Ecommerce.Domain.dll
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Domain\bin\Debug\netcoreapp3.1\Ecommerce.Domain.pdb
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Domain\obj\Debug\netcoreapp3.1\Ecommerce.Domain.csprojAssemblyReference.cache
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Domain\obj\Debug\netcoreapp3.1\Ecommerce.Domain.AssemblyInfoInputs.cache
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Domain\obj\Debug\netcoreapp3.1\Ecommerce.Domain.AssemblyInfo.cs
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Domain\obj\Debug\netcoreapp3.1\Ecommerce.Domain.dll
-D:\Ecommerce_NetCore\Ecommerce_NetCore\Ecommerce.Domain\obj\Debug\netcoreapp3.1\Ecommerce.Domain.pdb

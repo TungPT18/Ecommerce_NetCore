@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ecommerce_NetCore\\Ecommerce_NetCore\\Ecommerce\\Ecommerce.WebApp.csproj",
-      "projectName": "Ecommerce.WebApp",
-      "projectPath": "D:\\Ecommerce_NetCore\\Ecommerce_NetCore\\Ecommerce\\Ecommerce.WebApp.csproj",
+      "projectUniqueName": "D:\\Ecommerce_NetCore\\Ecommerce_NetCore\\Ecommerce.Data\\Ecommerce.Data.csproj",
+      "projectName": "Ecommerce.Data",
+      "projectPath": "D:\\Ecommerce_NetCore\\Ecommerce_NetCore\\Ecommerce.Data\\Ecommerce.Data.csproj",
       "packagesPath": "C:\\Users\\PHAM THANH TUNG\\.nuget\\packages\\",
-      "outputPath": "D:\\Ecommerce_NetCore\\Ecommerce_NetCore\\Ecommerce\\obj\\",
+      "outputPath": "D:\\Ecommerce_NetCore\\Ecommerce_NetCore\\Ecommerce.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PHAM THANH TUNG\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,9 +54,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

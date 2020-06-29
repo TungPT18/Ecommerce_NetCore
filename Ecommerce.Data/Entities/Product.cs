@@ -11,6 +11,10 @@ namespace Ecommerce.Data.Entities
         public int Stock { get; set; }
         public int ViewCount { get; set; }
         public string SeoAlias { get; set; }
+        public ICollection<ProductCategoryMapping> ProductCategoryMappings { get; set; }
+        public ICollection<OrderDetails> OrderDetails { get; set; }
+        public ICollection<Cart> Carts { get; set; }
+        public ICollection<ProductTranslation> ProductTranslations { get; set; }
 
     }
 }

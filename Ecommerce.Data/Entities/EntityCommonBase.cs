@@ -8,7 +8,7 @@ namespace Ecommerce.Data.Entities
     {
         public Guid Id { get; set; }
         public Guid InsertedBy { get; set; }
-        public DateTime InsertdAt { get; set; }
+        public DateTime InsertedAt { get; set; }
         public Guid UpdatedBy { get; set; }
         public DateTime UpdatedAt { get; set; }
         public bool IsDeleted { get; set; }

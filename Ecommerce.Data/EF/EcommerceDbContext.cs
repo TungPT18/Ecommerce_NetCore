@@ -1,5 +1,6 @@
 ﻿using Ecommerce.Data.Configurations;
 using Ecommerce.Data.Entities;
+using Ecommerce.Data.Extensions;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -16,6 +17,7 @@ namespace Ecommerce.Data.EF
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            // TungPT18 Configure Fluent API
             modelBuilder.ApplyConfiguration(new AppConfigConfiguration());
             modelBuilder.ApplyConfiguration(new ProductConfiguration());
             modelBuilder.ApplyConfiguration(new ProductCategoryMappingConfiguration());
@@ -28,8 +30,15 @@ namespace Ecommerce.Data.EF
             modelBuilder.ApplyConfiguration(new ProductTranslationConfiguration());
             modelBuilder.ApplyConfiguration(new PromotionConfiguration());
             modelBuilder.ApplyConfiguration(new LanguageConfiguration());
+
+
+            // TungPT18 Create Data Seeding
+            //modelBuilder.DataSeeding();
+
             //base.OnModelCreating(modelBuilder);
         }
+
+        // TungPT18 Create Model Code First
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<ProductTranslation> ProductTranslations { get; set; }

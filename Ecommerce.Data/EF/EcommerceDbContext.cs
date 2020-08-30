@@ -1,6 +1,8 @@
 ﻿using Ecommerce.Data.Configurations;
 using Ecommerce.Data.Entities;
 using Ecommerce.Data.Extensions;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +10,7 @@ using System.Text;
 
 namespace Ecommerce.Data.EF
 {
-    public class EcommerceDbContext : DbContext
+    public class EcommerceDbContext : IdentityDbContext<ApplicationUsers, ApplicationRoles, Guid>
     {
         public EcommerceDbContext(DbContextOptions options) : base(options)
         {
@@ -30,7 +32,15 @@ namespace Ecommerce.Data.EF
             modelBuilder.ApplyConfiguration(new ProductTranslationConfiguration());
             modelBuilder.ApplyConfiguration(new PromotionConfiguration());
             modelBuilder.ApplyConfiguration(new LanguageConfiguration());
+            modelBuilder.ApplyConfiguration(new ApplicationUsersConfiguration());
+            modelBuilder.ApplyConfiguration(new ApplicationRolesConfiguration());
 
+
+            modelBuilder.Entity<IdentityUserClaim<Guid>>().ToTable("ApplicationUserClaim").HasKey(n => n.UserId);
+            modelBuilder.Entity<IdentityUserRole<Guid>>().ToTable("ApplicationUserRole").HasKey(n => new { n.UserId, n.RoleId});
+            modelBuilder.Entity<IdentityUserLogin<Guid>>().ToTable("ApplicationUserLogin").HasKey(n => n.UserId);
+            modelBuilder.Entity<IdentityRoleClaim<Guid>>().ToTable("ApplicationRoleClaim").HasKey(n => n.RoleId);
+            modelBuilder.Entity<IdentityUserToken<Guid>>().ToTable("ApplicationUserToken").HasKey(n => n.UserId);
 
             // TungPT18 Create Data Seeding
             //modelBuilder.DataSeeding();

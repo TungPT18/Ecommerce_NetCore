@@ -13,5 +13,6 @@ namespace Ecommerce.Data.Entities
         public string ShipEmail { get; set; }
         public string ShipPhoneNumber { get; set; }
         public ICollection<OrderDetails> OrderDetails { get; set; }
+        public ApplicationUsers ApplicationUsers { get; set; }
     }
 }

@@ -20,6 +20,7 @@ namespace Ecommerce.Data.Configurations
             builder.Property(n => n.IsDeleted).HasDefaultValue(false);
 
             //builder.HasMany(n => n.OrderDetails).WithOne(m => m.Order);
+            builder.HasOne(n => n.ApplicationUsers).WithMany(m => m.Orders).HasForeignKey(m => m.UserId);
         }
     }
 }
